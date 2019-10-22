@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari:400,700|Montserrat:400,600,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li,
+a,
+button {
+    font-family: "Manjari", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    background: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+    height: 10vh;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    padding: 0;
+    margin-left: 0;
+    background: none;
+}
+
+.navLinks {
+    list-style: none;
+    background: #24252A;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover {
+    color: orange;
+}
+
+button {
+    font-family: "Manjari";
+    font-weight: 700px;
+    font-size: 14px;
+    padding: 9px 25px;
+    background-color: orange;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+    text-align: center;
+    text-anchor: middle;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+.head {
+    background-size: cover;
+    background-image: url(/Assets/mountainView.jpg);
+    background-position: center;
+    height: 120vh;
+    text-align: center;
+    background-color: orange;
+}
+
+.headerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+}
+
+.headerText h1 {
+    background: none;
+    font-family: "Manjari";
+    font-weight: 700;
+    font-size: 100px;
+    color: black;
+    border: 4px solid orange;
+    padding: 20px;
+    border-radius: 30px;
+    white-space: nowrap;
+}
+
+.headerText p {
+    background: none;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 40px;
+    color: black;
+    padding: 10px;
+}
+
+.about {
+    text-align: center;
+    border-top: 3px solid orange;
+    padding-top: 50px;
+}
+
+.aboutContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.headerText2 {
+    display: inline-block;
+    font-family: "Manjari";
+    font-weight: 400px;
+    font-size: 26px;
+    color: orange;
+    padding: 10px;
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+
+.card {
+    border: 5px solid orangered;
+    border-radius: 20px;
+    padding: 60px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    transition: all 2s ease 0s;
+}
+
+.card:hover {
+    background-image: url(/Assets/tim-collins-BDBZF7vkcxg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card p {
+    font-family: "Manjari";
+    font-weight: 400px;
+    font-size: 18px;
+    color: whitesmoke;
+    transition: all 1s ease 1s;
+    background: none;
+}
+
+#map {
+    width: 400px;
+    height: 300px;
+    border: 5px solid orangered;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.whyAVL {
+    text-align: center;
+}
+
+.headerText3 {
+    display: inline-block;
+    font-family: "Manjari";
+    font-weight: 400px;
+    font-size: 26px;
+    color: orange;
+    padding: 40px;
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+
+.whyContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.images {
+    width: 400px;
+    height: 550px;
+    margin: auto;
+    border: 3px solid orangered;
+    border-radius: 20px;
+}
+
+.whyText {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: 5px solid orangered;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.whyText p {
+    font-family: "Manjari";
+    font-weight: 400;
+    font-size: 20px;
+    background: none;
+    color: whitesmoke;
+    float: left;
+}
+
+.whyText h1 {
+    font-family: "Manjari";
+    font-weight: 700;
+    font-size: 40px;
+    background: none;
+    color: whitesmoke;
+    white-space: nowrap;
+    float: left, center;
+    padding-top: 20px;
+}
+
+#img1 {
+    background-image: url(/Assets/parkbench.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img2 {
+    background-image: url(/Assets/brewery.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img3 {
+    background-image: url(/Assets/hike.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img4 {
+    background-image: url(/Assets/riverRafting.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+    height: 30vh;
+    border-top: 3px solid orange;
+}
